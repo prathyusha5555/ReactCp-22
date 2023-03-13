@@ -1,0 +1,29 @@
+.blog-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.post-container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+.description {
+  color: grey;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+}
+.publised-date {
+  color: grey;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 300;
+}
